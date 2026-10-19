@@ -1,0 +1,23 @@
+{
+  "name": "pi-deepseek-tools",
+  "version": "0.1.0",
+  "description": "Provider-agnostic web_search and web_fetch tools for pi, backed by DeepSeek Search & Fetch APIs.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "web-search",
+    "web-fetch",
+    "deepseek"
+  ],
+  "license": "Unlicense",
+  "pi": {
+    "extensions": [
+      "./extensions/deepseek-tools.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
